@@ -15,9 +15,10 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0 4rem; /* Space from right and left */
 }
 
 @layer utilities {
