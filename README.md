@@ -171,9 +171,9 @@ export async function POST(req) {
 }
 ```
 
-## Frontend Data Post from From using react form hooks
+## Post data using react form hook
 
-```
+```javascript
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
@@ -205,7 +205,6 @@ const AddData = () => {
 
   console.log(watch("example")); // watch input value by passing the name of it
 
-### in input
  <form onSubmit={handleSubmit(onSubmit)}>
 <input
             type="text"
